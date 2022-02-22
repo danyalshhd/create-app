@@ -9,7 +9,7 @@ export const getMessages = async () => {
 
 export const postMessage = async (message) => {
   const response = await axios.post(basePath, { message })
-  return response.data
+  return response.data;
 }
 
 export const deleteMessage = async (message) => {
