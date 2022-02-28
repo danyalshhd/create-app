@@ -14,5 +14,5 @@ export const postMessage = async (message) => {
 
 export const deleteMessage = async (message) => {
   const response = await axios.delete(`${basePath}/${message.id}`)
-  return response.data
+  return response.data;
 }
