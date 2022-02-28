@@ -4,7 +4,7 @@ const MessageList = ({ messages, deleteMessage }) => {
   if (!messages) return null
 
   const handleDelete = (message) => () => {
-    deleteMessage(message)
+    deleteMessage(message);
   }
 
   return (
